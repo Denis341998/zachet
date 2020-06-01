@@ -3,6 +3,7 @@ void main(){
 	//some conflict
 	int b;
 	float d;
+	itn c;
 	for(int i = 5; i > a; i-- ){
 		b++;
 	}
@@ -12,10 +13,17 @@ int func1(int a){
 	a++;
 	return a+=a;
 	//master the best
+	//text for conflict
 }
 
 void func2(){
-	int mass[5]= {1,2,3,4,5,};
+	int mass[5]= {1,2,3,4,5};
 	mass[4] = 1;
 	mass[3] = 0;
+	String str = "conflict here";
+}
+
+void func_for_developer(){
+	print("some text");
+	print("more text");
 }
