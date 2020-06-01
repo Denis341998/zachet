@@ -15,3 +15,8 @@ void func2(){
 	mass[4] = 1;
 	mass[3] = 0;
 }
+
+void func_for_developer(){
+	print("some text");
+	print("more text");
+}
