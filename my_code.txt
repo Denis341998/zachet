@@ -1,13 +1,17 @@
 void main(){
 	itn a = 0;
+	//some conflict
 	int b;
+	float d;
 	for(int i = 5; i > a; i-- ){
 		b++;
 	}
 }
 
 int func1(int a){
+	a++;
 	return a+=a;
+	//master the best
 }
 
 void func2(){
