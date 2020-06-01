@@ -1,0 +1,17 @@
+void main(){
+	itn a = 0;
+	int b;
+	for(int i = 5; i > a; i-- ){
+		b++;
+	}
+}
+
+int func1(int a){
+	return a+=a;
+}
+
+void func2(){
+	int mass[5]= {1,2,3,4,5,};
+	mass[4] = 1;
+	mass[3] = 0;
+}
